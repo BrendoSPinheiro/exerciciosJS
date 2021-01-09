@@ -1,5 +1,10 @@
 /**
  * Crie uma função que receba dois números e retorne se o primeiro é maior ou igual ao segundo.
+ * 
+ * exemplos:
+ * maiorOuIgual(0, 0) // retornará true
+ * maiorOuIgual(0, "0") // retornará false
+ * maiorOuIgual(5, 1) // retornará true
  */
 
 function maiorOuIgual(num1, num2) {
@@ -7,4 +12,4 @@ function maiorOuIgual(num1, num2) {
   return num1 >= num2 ? true : false;
 }
 
-console.log(maiorOuIgual(10, 5));
+console.log(maiorOuIgual(0, 0));
