@@ -1,0 +1,16 @@
+/**
+ * Desenvolva uma função que recebe dois parâmetros, um é a quantidade de horas trabalhadas por um
+ * funcionário num mês, e o quanto ele recebe por hora. O retorno da função deve ser a string "Salário igual a R$
+ * X", em que X é o quanto o funcionário ganha por hora.
+ * 
+ * exemplos:
+ * calcularSalario(150, 40.5) // retornará "Salário igual a R$ 6075"
+ */
+
+function calcularSalario(qtdHorasTrabalhadas, remuneracaoPorHora) {
+  const salarioMensal = (qtdHorasTrabalhadas * remuneracaoPorHora).toFixed(2);
+  
+  return `Salário igual a R$${salarioMensal}, em que ${remuneracaoPorHora.toFixed(2)} é o quanto o funcionário ganha por hora`;
+}
+
+console.log(calcularSalario(150, 40.5));
