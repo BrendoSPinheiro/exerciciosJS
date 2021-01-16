@@ -6,4 +6,4 @@ function removerPropriedade(objeto, chave) {
   return copia;
 }
 
-console.log(removerPropriedade({ a: 2, b: 5 }, 'a'));
+console.log(removerPropriedade({ nome: 'Brendo', sobrenome: 'Souza' }, 'nome'));
